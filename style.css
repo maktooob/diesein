@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1649771228436-fef564ad8f44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1400&q=60);
+    background-size: cover;
+}
+p {
+    color: rgb(222, 196, 196);
+}
+img {
+    width: 300px;
+    padding: 1px;
+    margin: 10px;  
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.08);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid;
+    flex-wrap: wrap;
+    background-color: rgb(222, 196, 196, 0.2);
+}
+h1 {
+    color: rgb(222, 196, 196);
+    font-style: italic;
+    font-size: 3em;
+    margin: 10px;
+}
+.herotext{
+    background-color: rgb(222, 196, 196, 0.2);
+}
+
+ul {
+    color: rgb(222, 196, 196);
+    border: 1px solid;
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    border: 1px solid;
+    list-style-type: none;
+  
+    margin: 10px 50px 10px 10px;
+}
