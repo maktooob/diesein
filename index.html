@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&family=Montserrat:ital,wght@0,400;1,900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <title>Imperial Unit Conversion</title>
+   
+</head>
+<body>
+    <header>
+        <div class="top-container">
+            <h1>Imperial unit conversion</h1>
+            <h2>Type in a Value</h2>
+            <input type="text" id="input-number">
+            <button onclick="lengthCalc()">Calculate</button>
+        </div>
+    </header>
+
+    <section>
+        <div class="bot-container">
+            <div class="length">
+                <h3>Length (Meters/Feet)</h3>
+                    <p id="length-result"></p> 
+                    
+            </div>
+
+            <div class="Volume"> 
+                <h3>Volume (Litres/Gallons)</h3>
+                    <p id="vol-result"></p> 
+            </div>
+
+            <div class="Mass">
+                <h3>Mass (Kilograms/Pounds)</h3>
+                   <p id="mass-result"></p>
+            </div> 
+        </div>
+    </section>
+
+    <script src="sandbox.js"></script>
+</body>
+</html>
